@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>home page</title>
+        <link rel="icon" href="../../public/img/images.png">
+       <link rel="stylesheet" href="./css/styles.css">
+        
+    </head>
+    <body>
+        <div class="main-content">
+             {{>header}}
+             <p>use this site to get wether information</p>
+             <form>
+                <input placeholder="location">
+             <button>search</button>
+             </form>
+
+             <p id="message-1"></p>
+             <p id="message-2"></p>
+        </div> 
+        {{>footer}}
+<script src="./js/app.js"></script>
+    </body>
+</html>
